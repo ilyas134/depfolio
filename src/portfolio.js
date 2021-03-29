@@ -9,8 +9,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ilyas jaa",
+  title: "Hi all, I'm Ilyas",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -22,13 +22,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ilyas134",
+  linkedin: "https://github.com/ilyas134",
+  gmail: "ilyas.jjaai@gmail.com",
+  gitlab: "ilyas.jjaai@gmail.com",
+  facebook: "https://www.facebook.com/ilyas.jaai.oujda/",
+  medium: "https://www.facebook.com/ilyas.jaai.oujda/",
+  stackoverflow: "https://www.facebook.com/ilyas.jaai.oujda/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -151,7 +151,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -209,7 +209,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      projectName: "Lorem",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -221,7 +221,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      projectName: "Lorem",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -246,23 +246,23 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Lorem.",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
           name: "Certification",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://drive.google.com/"
         },
         {
           name: "Award Letter",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+            "https://drive.google.com/"
         },
         {
           name: "Google Code-in Blog",
           url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            "https://drive.google.com/"
         }
       ]
     },
@@ -275,7 +275,7 @@ const achievementSection = {
         {
           name: "View Google Assistant Action",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+            "https://assistant.google.com/"
         }
       ]
     },
@@ -288,7 +288,7 @@ const achievementSection = {
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://assistant.google.com/"
         }
       ]
     }
@@ -333,8 +333,8 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      slides_url: "https://bit.ly/",
+      event_url: "https://www.facebook.com/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -348,7 +348,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -357,8 +357,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+212546454899",
+  email_address: "ilyas.jjaai@gmail.com"
 };
 
 // Twitter Section
