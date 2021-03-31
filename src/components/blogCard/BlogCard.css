@@ -3,12 +3,15 @@
 }
 
 .blog-container {
-  border-radius: 10px;
-  color: #586069;
-  background-color: #fff;
-  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  height: 200px;
+  position:relative;
+  
+  height: 420px;
+  box-shadow: inset 5px 5px 5px rgba(250, 247, 247, 0.1),
+              inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+              5px 5px 15px rgba(0, 0, 0, 0.1),
+              -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
 }
 
 .blog-title {
@@ -61,14 +64,20 @@
 }
 
 .blog-card {
-  display: block;
-  position: relative;
-  background-color: transparent;
-  border-radius: 4px;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  border-radius: 32px;
+   box-shadow:0 20px 50px rgba(102, 101, 101, 0.3);
+  border-radius: 15px;
+transition: 0.5s;
   text-decoration: none;
-  z-index: 0;
+ 
   overflow: hidden;
-  height: 100%;
+   
 }
 
 .blog-card::before {
@@ -86,8 +95,9 @@
   transition: transform 0.4s ease-out;
 }
 
-.blog-card:hover::before {
-  transform: scale(30);
+.blog-card:hover  {
+  transform: translateY(-50px);
+ 
 }
 
 .blog-card:hover > .small {
@@ -143,5 +153,5 @@
   }
 }
 .blog-card-shadow {
-  box-shadow: 1px 0px 20px #ffffff;
+  
 }
